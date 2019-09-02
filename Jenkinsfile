@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('install') {
       steps {
-        sh 'make'
+        sh 'make install'
       }
     }
   }
